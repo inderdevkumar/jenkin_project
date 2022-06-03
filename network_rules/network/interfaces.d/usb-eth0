@@ -1,0 +1,105 @@
+auto eth0
+iface eth0 inet static
+    address 192.168.0.1
+    netmask 255.255.255.0
+
+# vlan73_if_ip_bundle
+auto eth0.73
+iface eth0.73 inet static
+    address 160.48.199.121
+    netmask 255.255.255.128
+    post-up route add -net 224.0.0.0/4 eth0.73
+iface eth0.73 inet static
+    address 160.48.199.16
+    netmask 255.255.255.128
+# vcar_ips without vlan73_if_ip_bundle
+iface eth0.73 inet static
+    address 160.48.199.6
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.20
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.34
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.35
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.38
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.39
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.40
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.50
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.64
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.65
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.66
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.69
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.72
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.73
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.74
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.75
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.76
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.77
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.78
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.79
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.93
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.96
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.97
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.98
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.100
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.101
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.102
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.110
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.117
+    netmask 255.255.255.128
+iface eth0.73 inet static
+    address 160.48.199.125
+    netmask 255.255.255.128

@@ -1,0 +1,8 @@
+# Datei: /etc/udev/rules.d/69-usb-to-eth-adapter.rules
+
+# USB to ethernet adapter
+SUBSYSTEMS=="usb", ACTION=="add", DRIVERS=="ax88179_178a", NAME="eth0"
+
+
+# ZD link
+SUBSYSTEMS=="usb", ACTION=="add", ATTRS{idProduct}=="7801", NAME="eth0"

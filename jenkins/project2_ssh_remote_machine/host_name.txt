@@ -1,0 +1,4 @@
+tf-worker-mgu-394.de-cci.bmwgroup.net
+tf-worker-mgu-315.bmw-carit.intra
+tf-worker-mgu-319.bmw-carit.intra
+tf-worker-mgu-515.bmw-carit.intra

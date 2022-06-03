@@ -1,0 +1,16 @@
+# Datei: /etc/udev/rules.d/99-a-sample-serial.rules
+# Power supply
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", SYMLINK+="ttyUSB_PowerSupply"
+
+# Create ftdi device
+ACTION=="add", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="a9a0", RUN+="/bin/sh -c 'echo 0403 a9a0 > /sys/bus/usb-serial/drivers/ftdi_sio/new_id'"
+
+# Bluebox
+# Vendor/product ID: 0403:a9a0
+SUBSYSTEM=="tty", DRIVERS=="ftdi_sio", ATTRS{bInterfaceNumber}=="00", ATTRS{interface}=="FHE", SYMLINK+="ttyUSB_Bluebox0"
+SUBSYSTEM=="tty", DRIVERS=="ftdi_sio", ATTRS{bInterfaceNumber}=="01", ATTRS{interface}=="FHE", SYMLINK+="ttySOC"
+
+# Arduino
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="8037", SYMLINK+="ttyUSB_Arduino"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2a03", ATTRS{idProduct}=="8037", SYMLINK+="ttyUSB_Arduino"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="8036", SYMLINK+="ttyUSB_Arduino"
