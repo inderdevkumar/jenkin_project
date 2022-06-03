@@ -1,0 +1,6 @@
+# File: /etc/udev/rules.d/79-usb-to-serial.rules
+
+# Serial console
+# MGU22 Linux worker, for testrack need to define sc.symlink as above for adaptation.
+SUBSYSTEMS=="usb", DRIVERS=="ftdi_sio", ATTRS{interface}=="Quad RS232-HS", ATTRS{bInterfaceNumber}=="02", SYMLINK+="ttySOCHU", MODE="0666"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="IOC000HU", SYMLINK+="ttyIOC"
