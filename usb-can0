@@ -1,0 +1,8 @@
+auto can0
+iface can0 inet manual
+    pre-up ip link set can0 type can bitrate 500000 sample-point 0.75
+    pre-up ip link set can0 type can tq 125 prop-seg 1 phase-seg1 11 phase-seg2 3 sjw 3
+    pre-up ip link set can0 type can restart-ms 100
+    post-up tc qdisc add dev can0 root handle 1: pfifo_fast
+    up /sbin/ifconfig can0 up
+    down /sbin/ifconfig can0 down
