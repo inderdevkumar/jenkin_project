@@ -1,0 +1,5 @@
+Host mgu-high
+  HostName 160.48.199.99
+  User root
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null

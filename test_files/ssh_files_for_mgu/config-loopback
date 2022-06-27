@@ -1,0 +1,5 @@
+Host localhost
+  User tf_admin
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+  IdentityFile /tmp/ssh_files_for_mgu/loopback_id_rsa

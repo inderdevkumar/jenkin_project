@@ -1,0 +1,5 @@
+Host localhost
+  User tu_bci_unix
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+  IdentityFile /home/tu_bci_unix/.ssh/loopback_id_rsa

@@ -1,0 +1,1450 @@
+
+
+##############################
+2022-06-15 12:27:10
+##############################
+
+Error: Serial device /dev/ttyIOC is not available
+
+
+##############################
+2022-06-15 12:46:57
+##############################
+
+Error: Serial device /dev/ttyIOC is not available
+
+
+##############################
+2022-06-15 12:50:12
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+Error: Communication with target failed before starting flashing protocol.                  
+
+
+##############################
+2022-06-15 12:55:21
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+Error: Communication with target failed before starting flashing protocol.                  
+
+
+##############################
+2022-06-15 12:57:52
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000004e'
+Erasing memory target sectors...
+Took: 3.85s to erase...
+Took: 0.06s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 146.02 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 2.73 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.03s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 234.80s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037bbf NBytes:162752
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x10083d37 NBytes:310584
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x101283df NBytes:623584
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-15 14:34:30
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000004e'
+Erasing memory target sectors...
+Took: 4.74s to erase...
+Took: 0.08s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 146.06 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 2.94 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.03s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 234.79s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037bbf NBytes:162752
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x10083d37 NBytes:310584
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x101283df NBytes:623584
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-17 09:35:59
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000006e'
+Erasing memory target sectors...
+Took: 6.13s to erase...
+Took: 0.06s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 306.76 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.19 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.03s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 503.21s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+2022-06-17 14:17:14,448 INFO  {'port': '/dev/ttyIOC', 'operation': 'writeVerify', 'filename': '/home/gui_pd_access/inder/gui_pd_access_nuc_worker/recover_broken_idc_with_uart/ioc_releases/20.2.0/bmw_idc_m7_4m_20.2.0_image.srec', 'address_nbytes': None, 'silent': False, 'baudrate': None, 'fast_mode': False, 'requested_target_model': '4M', 'dump_config': {'raw_filename': 'uartlog.raw', 'dlt_filename': 'uartlog.dlt', 'dump_time_s': 10}, 'logfile': 'pcclient.log', 'log_level': 'INFO'}
+2022-06-17 14:17:14,451 LOG   PC Client version: 2.0.9
+2022-06-17 14:17:14,451 LOG   Waiting for the target device to connect. Please POWER ON/RESET the target device.
+2022-06-17 14:17:18,158 LOG   
+2022-06-17 14:17:18,158 LOG   Target Information:
+2022-06-17 14:17:18,190 LOG   UARTLDR version: 4.1.12
+2022-06-17 14:17:18,254 LOG   SFLASH write cycles: 296 295
+2022-06-17 14:17:18,982 LOG   
+2022-06-17 14:17:18,982 LOG   Uploading Toolbox:
+2022-06-17 14:17:18,999 LOG   Toolbox version: 1.0.1 (devFBL Feb  7 2022 14:43:25)
+2022-06-17 14:17:18,999 LOG   Uploading 0xc3c bytes to 0x2800c800.
+2022-06-17 14:17:19,438 INFO  Uploading took 0 seconds.
+2022-06-17 14:17:19,438 LOG   Uploading 0x4 bytes to 0x2800d440.
+2022-06-17 14:17:19,454 INFO  Uploading took 0 seconds.
+2022-06-17 14:17:19,454 LOG   Uploading 0x8c4 bytes to 0x2800d448.
+2022-06-17 14:17:19,758 INFO  Uploading took 0 seconds.
+2022-06-17 14:17:19,758 LOG   Uploading 0x9e bytes to 0x28010800.
+2022-06-17 14:17:19,790 INFO  Uploading took 0 seconds.
+2022-06-17 14:17:19,790 LOG   Uploading 0x5cb2 bytes to 0x280108a0.
+2022-06-17 14:17:22,956 INFO  Uploading took 3 seconds.
+2022-06-17 14:17:22,956 LOG   Uploading 0x3c bytes to 0x28016554.
+2022-06-17 14:17:22,972 INFO  Uploading took 0 seconds.
+2022-06-17 14:17:24,506 LOG   
+2022-06-17 14:17:24,506 LOG   Erasing Flash:
+2022-06-17 14:17:31,926 INFO  Erasing took 7 seconds.
+2022-06-17 14:17:31,926 LOG   Uploading 0x30000 bytes to 0x10000000.
+2022-06-17 14:17:58,151 INFO  Uploading took 26 seconds.
+2022-06-17 14:17:58,151 LOG   Uploading 0x51618 bytes to 0x10038000.
+2022-06-17 14:18:42,591 INFO  Uploading took 44 seconds.
+2022-06-17 14:18:42,591 LOG   Uploading 0x1df3e0 bytes to 0x10090000.
+2022-06-17 14:23:04,271 INFO  Uploading took 261 seconds.
+2022-06-17 14:23:04,271 LOG   Uploading 0x20c bytes to 0x17000800.
+2022-06-17 14:23:04,351 INFO  Uploading took 0 seconds.
+2022-06-17 14:23:04,351 LOG   Uploading 0xc8 bytes to 0x17000a10.
+2022-06-17 14:23:04,383 INFO  Uploading took 0 seconds.
+2022-06-17 14:23:04,383 LOG   Uploading 0x4fc bytes to 0x17000b00.
+2022-06-17 14:23:04,559 INFO  Uploading took 0 seconds.
+2022-06-17 14:23:04,559 LOG   Uploading 0x448 bytes to 0x17006400.
+2022-06-17 14:23:04,719 INFO  Uploading took 0 seconds.
+2022-06-17 14:23:04,719 LOG   Uploading 0x798 bytes to 0x17006850.
+2022-06-17 14:23:04,991 INFO  Uploading took 0 seconds.
+2022-06-17 14:23:04,991 LOG   Uploading 0x200 bytes to 0x17007600.
+2022-06-17 14:23:05,071 INFO  Uploading took 0 seconds.
+2022-06-17 14:23:05,071 LOG   Uploading 0x200 bytes to 0x17007c00.
+2022-06-17 14:23:05,151 INFO  Uploading took 0 seconds.
+2022-06-17 14:23:06,734 LOG   flashtime: 334.808484274
+2022-06-17 14:23:06,734 LOG   
+2022-06-17 14:23:06,734 LOG   Performing Verification:
+2022-06-17 14:23:06,802 LOG   Start address: 0x10000000, size: 0x30000, verification result: OK
+2022-06-17 14:23:06,847 LOG   Start address: 0x10038000, size: 0x51618, verification result: OK
+2022-06-17 14:23:06,930 LOG   Start address: 0x10090000, size: 0x1df3e0, verification result: OK
+2022-06-17 14:23:06,974 LOG   Start address: 0x17000800, size: 0x20c, verification result: OK
+2022-06-17 14:23:07,022 LOG   Start address: 0x17000a10, size: 0xc8, verification result: OK
+2022-06-17 14:23:07,070 LOG   Start address: 0x17000b00, size: 0x4fc, verification result: OK
+2022-06-17 14:23:07,118 LOG   Start address: 0x17006400, size: 0x448, verification result: OK
+2022-06-17 14:23:07,166 LOG   Start address: 0x17006850, size: 0x798, verification result: OK
+2022-06-17 14:23:07,214 LOG   Start address: 0x17007600, size: 0x200, verification result: OK
+2022-06-17 14:23:07,262 LOG   Start address: 0x17007c00, size: 0x200, verification result: OK
+2022-06-17 14:23:07,278 LOG   
+2022-06-17 14:23:07,278 LOG   Dumping UART output:
+2022-06-17 14:23:17,311 INFO  Dumping took 10 seconds.
+2022-06-17 14:23:17,311 LOG   Got 1036 DLT messages.
+2022-06-17 14:23:17,311 LOG   overall flashtime: 359.167311068 s
+2022-06-17 14:23:17,311 LOG   Flashing operation was successful
+
+
+##############################
+2022-06-17 14:37:33
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000006e'
+Erasing memory target sectors...
+Took: 7.50s to erase...
+Took: 0.08s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.75 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 307.08 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.23 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.05s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 497.85s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-20 15:09:41
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000006e'
+Erasing memory target sectors...
+Took: 6.08s to erase...
+Took: 0.06s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.75 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 307.06 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.09 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.05s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 499.25s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+2022-06-20 16:29:31,330 INFO  {'port': '/dev/ttyIOC', 'operation': 'writeVerify', 'filename': '/home/gui_pd_access/inder/gui_pd_access_nuc_worker/recover_broken_padi_with_uart/gen22_mb_dev_flash/bmw_rse22_padi-pu2207-images_userdebug-22w23.7-1-nodex_A_22w23.3-1-11/mgu22/ioc/b2/bmw_mgu_m4_2m_11.50.0_0_image.srec', 'address_nbytes': None, 'silent': False, 'baudrate': None, 'fast_mode': False, 'requested_target_model': '2M', 'dump_config': {'raw_filename': 'uartlog.raw', 'dlt_filename': 'uartlog.dlt', 'dump_time_s': 10}, 'logfile': 'pcclient.log', 'log_level': 'INFO'}
+2022-06-20 16:29:31,331 LOG   PC Client version: 2.0.9
+2022-06-20 16:29:31,331 LOG   Waiting for the target device to connect. Please POWER ON/RESET the target device.
+2022-06-20 16:29:35,056 LOG   
+2022-06-20 16:29:35,056 LOG   Target Information:
+2022-06-20 16:29:35,088 LOG   UARTLDR version: 4.5.6
+2022-06-20 16:29:35,152 LOG   SFLASH write cycles: 86 85
+2022-06-20 16:29:35,529 LOG   
+2022-06-20 16:29:35,529 LOG   Uploading Toolbox:
+2022-06-20 16:29:35,542 LOG   Toolbox version: 1.0.1 (devFBL Feb  7 2022 14:42:43)
+2022-06-20 16:29:35,543 LOG   Uploading 0x954 bytes to 0x800c800.
+2022-06-20 16:29:35,872 INFO  Uploading took 0 seconds.
+2022-06-20 16:29:35,872 LOG   Uploading 0x7d4 bytes to 0x800d158.
+2022-06-20 16:29:36,144 INFO  Uploading took 0 seconds.
+2022-06-20 16:29:36,144 LOG   Uploading 0x9e bytes to 0x8010800.
+2022-06-20 16:29:36,176 INFO  Uploading took 0 seconds.
+2022-06-20 16:29:36,176 LOG   Uploading 0x473a bytes to 0x80108a0.
+2022-06-20 16:29:38,607 INFO  Uploading took 2 seconds.
+2022-06-20 16:29:38,607 LOG   Uploading 0x3c bytes to 0x8014fdc.
+2022-06-20 16:29:38,623 INFO  Uploading took 0 seconds.
+2022-06-20 16:29:40,166 LOG   
+2022-06-20 16:29:40,166 LOG   Erasing Flash:
+2022-06-20 16:29:44,036 INFO  Erasing took 3 seconds.
+2022-06-20 16:29:44,036 LOG   Uploading 0x30000 bytes to 0x10000000.
+2022-06-20 16:30:10,261 INFO  Uploading took 26 seconds.
+2022-06-20 16:30:10,262 LOG   Uploading 0x4c9c8 bytes to 0x10038000.
+2022-06-20 16:30:52,094 INFO  Uploading took 41 seconds.
+2022-06-20 16:30:52,095 LOG   Uploading 0xa7818 bytes to 0x10090000.
+2022-06-20 16:32:23,564 INFO  Uploading took 91 seconds.
+2022-06-20 16:32:23,564 LOG   Uploading 0x20c bytes to 0x17000800.
+2022-06-20 16:32:23,644 INFO  Uploading took 0 seconds.
+2022-06-20 16:32:23,644 LOG   Uploading 0xc8 bytes to 0x17000a10.
+2022-06-20 16:32:23,676 INFO  Uploading took 0 seconds.
+2022-06-20 16:32:23,676 LOG   Uploading 0x4fc bytes to 0x17000b00.
+2022-06-20 16:32:23,852 INFO  Uploading took 0 seconds.
+2022-06-20 16:32:23,852 LOG   Uploading 0x448 bytes to 0x17006400.
+2022-06-20 16:32:24,012 INFO  Uploading took 0 seconds.
+2022-06-20 16:32:24,012 LOG   Uploading 0x798 bytes to 0x17006850.
+2022-06-20 16:32:24,284 INFO  Uploading took 0 seconds.
+2022-06-20 16:32:24,284 LOG   Uploading 0x200 bytes to 0x17007600.
+2022-06-20 16:32:24,364 INFO  Uploading took 0 seconds.
+2022-06-20 16:32:24,364 LOG   Uploading 0x200 bytes to 0x17007c00.
+2022-06-20 16:32:24,444 INFO  Uploading took 0 seconds.
+2022-06-20 16:32:24,460 LOG   flashtime: 160.423551885
+2022-06-20 16:32:24,460 LOG   
+2022-06-20 16:32:24,460 LOG   Performing Verification:
+2022-06-20 16:32:24,528 LOG   Start address: 0x10000000, size: 0x30000, verification result: OK
+2022-06-20 16:32:24,572 LOG   Start address: 0x10038000, size: 0x4c9c8, verification result: OK
+2022-06-20 16:32:24,621 LOG   Start address: 0x10090000, size: 0xa7818, verification result: OK
+2022-06-20 16:32:24,668 LOG   Start address: 0x17000800, size: 0x20c, verification result: OK
+2022-06-20 16:32:24,716 LOG   Start address: 0x17000a10, size: 0xc8, verification result: OK
+2022-06-20 16:32:24,763 LOG   Start address: 0x17000b00, size: 0x4fc, verification result: OK
+2022-06-20 16:32:24,812 LOG   Start address: 0x17006400, size: 0x448, verification result: OK
+2022-06-20 16:32:24,860 LOG   Start address: 0x17006850, size: 0x798, verification result: OK
+2022-06-20 16:32:24,907 LOG   Start address: 0x17007600, size: 0x200, verification result: OK
+2022-06-20 16:32:24,955 LOG   Start address: 0x17007c00, size: 0x200, verification result: OK
+2022-06-20 16:32:24,971 LOG   
+2022-06-20 16:32:24,972 LOG   Dumping UART output:
+2022-06-20 16:32:35,025 INFO  Dumping took 10 seconds.
+2022-06-20 16:32:35,025 LOG   Got 137 DLT messages.
+2022-06-20 16:32:35,025 LOG   overall flashtime: 179.982940094 s
+2022-06-20 16:32:35,025 LOG   Flashing operation was successful
+
+
+##############################
+2022-06-21 12:07:23
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000006e'
+Erasing memory target sectors...
+Took: 6.87s to erase...
+Took: 0.08s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 306.70 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.07 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.03s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 498.16s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-21 17:09:36
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Flashloader will not be updated (same version in srec as in target memory)!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'22' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'22')
+waitForSections erasing received: b'140000006c'
+Erasing memory target sectors...
+Took: 6.30s to erase...
+Writing into CODE-FLASH 
+Took: 307.14 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 1.42 seconds to write supervisory flash
+MEM_DECISION:b'22' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for application sectors
+Took: 498.39s to get the segments data written data back!
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-21 21:55:30
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000006e'
+Erasing memory target sectors...
+Took: 7.53s to erase...
+Took: 0.08s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 306.91 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.20 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.04s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 497.90s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-22 10:36:59
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000006e'
+Erasing memory target sectors...
+Took: 7.45s to erase...
+Took: 0.08s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.75 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 307.14 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.23 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.05s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 498.76s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-22 11:33:45
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000006e'
+Erasing memory target sectors...
+Took: 6.78s to erase...
+Took: 0.08s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.75 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 307.14 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.14 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.05s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 499.24s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-22 14:39:22
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000004e'
+Erasing memory target sectors...
+Took: 3.85s to erase...
+Took: 0.06s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.75 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 146.24 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Error: Communication timeout during writing supervisory flash.
+
+
+##############################
+2022-06-22 15:27:05
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Flashloader will not be updated (same version in srec as in target memory)!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'22' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'22')
+waitForSections erasing received: b'140000004c'
+Erasing memory target sectors...
+Took: 3.73s to erase...
+Writing into CODE-FLASH 
+Took: 146.24 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 2.93 seconds to write supervisory flash
+MEM_DECISION:b'22' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for application sectors
+Took: 235.25s to get the segments data written data back!
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037bbf NBytes:162752
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x10083d37 NBytes:310584
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x101283df NBytes:623584
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-22 16:32:28
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000004e'
+Erasing memory target sectors...
+Took: 3.85s to erase...
+Took: 0.06s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.75 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 146.24 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 2.97 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.05s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 235.14s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037bbf NBytes:162752
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x10083d37 NBytes:310584
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x101283df NBytes:623584
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-23 10:42:11
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000004e'
+Erasing memory target sectors...
+Took: 4.56s to erase...
+Took: 0.08s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 146.15 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 2.88 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.04s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 234.97s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037bbf NBytes:162752
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x10083d37 NBytes:310584
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x101283df NBytes:623584
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-23 11:35:52
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000004e'
+Erasing memory target sectors...
+Took: 4.11s to erase...
+Took: 0.06s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.75 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 146.25 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 2.82 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.05s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 235.12s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037bbf NBytes:162752
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x10083d37 NBytes:310584
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x101283df NBytes:623584
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-23 13:22:22
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000004e'
+Erasing memory target sectors...
+Took: 3.64s to erase...
+Took: 0.05s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 146.15 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.10 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.04s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 235.01s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037bbf NBytes:162752
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x10083d37 NBytes:310584
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x101283df NBytes:623584
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-23 14:04:34
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000004e'
+Erasing memory target sectors...
+Took: 4.81s to erase...
+Took: 0.08s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 146.15 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.18 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.04s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 235.10s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037bbf NBytes:162752
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x10083d37 NBytes:310584
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x101283df NBytes:623584
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-23 15:10:54
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000006e'
+Erasing memory target sectors...
+Took: 6.27s to erase...
+Took: 0.06s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 306.95 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 3.21 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.04s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 498.86s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-23 16:03:24
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 3.21 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'02'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000006e'
+Erasing memory target sectors...
+Took: 6.65s to erase...
+Took: 0.08s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 306.95 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 2.97 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.04s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 498.09s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037e7f NBytes:163456
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x100875a7 NBytes:325032
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x1024b3df NBytes:1815520
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful
+
+
+##############################
+2022-06-27 11:59:34
+##############################
+
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'55'
+ BLR received, timeout got extended!
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+Verify and parse srec... (will take several seconds...)
+Verify and parse srec completed!
+b'1400'
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Verifying if there is a need to update flashloader
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+There is a need to update Flashloader!
+Sending MEM_DECISION: b'20' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'20')
+Writing DEV_FBL into SRAM 
+Took: 2.38 seconds to write DEV_FBL into SRAM
+MEM_DECISION:b'20' Success!
+Activating BLflash, sending b'aa', waiting for b'55'
+In BLFlash received:b'00'
+In BLFlash received:b'55'
+In BLFlash received:b'01'
+Sending b'ac'... Waiting for b'1400'
+b'1400'
+Sending MEM_DECISION: b'21' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Started Sending srec Messages (MEM_DECISION:b'21')
+waitForSections erasing received: b'140000004e'
+Erasing memory target sectors...
+Took: 3.82s to erase...
+Took: 0.06s to erase only the fbl sectors
+Writing New Fbl 
+Took: 8.74 seconds to write new FBL srec segments
+Writing into CODE-FLASH 
+Took: 146.15 seconds to write application srec segments
+Writing into supervisory-FLASH 
+Took: 2.85 seconds to write supervisory flash
+MEM_DECISION:b'21' Success!
+Sending MEM_DECISION: b'dc' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Getting back the data for the sectors of new fbl flashed
+Took: 14.05s to get the segments data written data back!
+Getting back the data for application sectors
+Took: 235.17s to get the segments data written data back!
+Verifying FBL Flashed Segment N:0: InitAddress:0x10000000 EndAddress:0x1000ffff NBytes:65536
+Segment N:0 is OK
+Verifying APP Flashed Segment N:0: InitAddress:0x10010000 EndAddress:0x10037bbf NBytes:162752
+Segment N:0 is OK
+Verifying APP Flashed Segment N:1: InitAddress:0x10038000 EndAddress:0x10083d37 NBytes:310584
+Segment N:1 is OK
+Verifying APP Flashed Segment N:2: InitAddress:0x10090000 EndAddress:0x101283df NBytes:623584
+Segment N:2 is OK
+Response for ending of reading procedure ok -> target will go to wait for mem decision
+Sending MEM_DECISION: b'fffeaa55' Waiting for b'1400'
+In MEM_DECISION received:b'1400'
+Creating DLT dump
+
+Flashing operation was successful

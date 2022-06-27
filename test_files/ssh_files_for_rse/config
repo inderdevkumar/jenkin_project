@@ -1,0 +1,8 @@
+Host src-u.bmw-carit.de
+    User tu_bci00
+
+Host src.bmw-carit.de
+    User tu_bci00
+
+Host asc-repo.bmwgroup.net
+    User QQSIT00

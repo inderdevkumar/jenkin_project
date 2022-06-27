@@ -1,0 +1,944 @@
+
+
+##############################
+2022-06-15 12:27:10
+##############################
+
+/tmp/_MEICbvcWV/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+
+
+##############################
+2022-06-15 12:46:57
+##############################
+
+/tmp/_MEIBH55xA/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+
+
+##############################
+2022-06-15 12:50:12
+##############################
+
+/tmp/_MEI3PsNvd/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+
+
+##############################
+2022-06-15 12:55:21
+##############################
+
+/tmp/_MEIhiZqun/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+
+
+##############################
+2022-06-15 12:57:52
+##############################
+
+/tmp/_MEIVG2EMo/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/gui_pd_access_nuc_worker/recover_broken_padi_with_uart/ioc_releases/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.61s to parse and generate srec messages!
+
+
+##############################
+2022-06-15 14:34:30
+##############################
+
+/tmp/_MEIHX0zH0/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/gui_pd_access_nuc_worker/recover_broken_padi_with_uart/ioc_releases/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.65s to parse and generate srec messages!
+
+
+##############################
+2022-06-17 09:35:59
+##############################
+
+/tmp/_MEInFjYKK/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/gui_pd_access_nuc_worker/recover_broken_idc_with_uart/ioc_releases/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 28.87s to parse and generate srec messages!
+
+
+##############################
+2022-06-17 14:37:33
+##############################
+
+/tmp/_MEIGYGHTQ/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/gui_pd_access_nuc_worker/recover_broken_idc_with_uart/ioc_releases/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 28.11s to parse and generate srec messages!
+
+
+##############################
+2022-06-20 15:09:41
+##############################
+
+/tmp/_MEIsOu5qo/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/gui_pd_access_nuc_worker/recover_broken_idc_with_uart/ioc_releases/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 28.52s to parse and generate srec messages!
+
+
+##############################
+2022-06-21 12:07:23
+##############################
+
+/tmp/_MEIsvG6ru/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/gui_pd_access_nuc_worker/recover_broken_idc_with_uart/ioc_releases/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 27.50s to parse and generate srec messages!
+
+
+##############################
+2022-06-21 17:09:36
+##############################
+
+/tmp/_MEIadYiPL/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/gui_pd_access_nuc_worker/recover_broken_idc_with_uart/ioc_releases/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 28.46s to parse and generate srec messages!
+
+
+##############################
+2022-06-21 21:55:30
+##############################
+
+/tmp/_MEIP5yG0i/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/idc/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 27.77s to parse and generate srec messages!
+
+
+##############################
+2022-06-22 10:36:59
+##############################
+
+/tmp/_MEI4Gadxm/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/idc/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 28.93s to parse and generate srec messages!
+
+
+##############################
+2022-06-22 11:33:45
+##############################
+
+/tmp/_MEIKPcax1/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/idc/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 27.98s to parse and generate srec messages!
+
+
+##############################
+2022-06-22 14:39:22
+##############################
+
+/tmp/_MEI7XBhQv/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/mgu22/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.59s to parse and generate srec messages!
+
+
+##############################
+2022-06-22 15:27:05
+##############################
+
+/tmp/_MEIgL0xUV/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/mgu22/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.61s to parse and generate srec messages!
+
+
+##############################
+2022-06-22 16:32:28
+##############################
+
+/tmp/_MEI3CU7X0/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/mgu22/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.60s to parse and generate srec messages!
+
+
+##############################
+2022-06-23 10:42:11
+##############################
+
+/tmp/_MEIpnobPg/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/mgu22/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.64s to parse and generate srec messages!
+
+
+##############################
+2022-06-23 11:35:52
+##############################
+
+/tmp/_MEIK7Lykf/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/mgu22/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.68s to parse and generate srec messages!
+
+
+##############################
+2022-06-23 13:22:22
+##############################
+
+/tmp/_MEIQWPHYf/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/mgu22/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.55s to parse and generate srec messages!
+
+
+##############################
+2022-06-23 14:04:34
+##############################
+
+/tmp/_MEIXULZur/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/mgu22/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.57s to parse and generate srec messages!
+
+
+##############################
+2022-06-23 15:10:54
+##############################
+
+/tmp/_MEIV04yMr/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/idc/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 28.51s to parse and generate srec messages!
+
+
+##############################
+2022-06-23 16:03:24
+##############################
+
+/tmp/_MEIt2GpmE/toolbox_4M
+line number 108 ignored (stype = 5 )
+Data Append from line 83 and line 84 was not possible
+Segment Created: InitAddr=0x28010800 EndAddr=0x28014f4d
+Data Append from line 97 and line 98 was not possible
+Segment Created: InitAddr=0x28014f50 EndAddr=0x28015b9b
+Data Append from line 98 and line 99 was not possible
+Segment Created: InitAddr=0x28015ba0 EndAddr=0x28015ba3
+Segment Created: InitAddr=0x28015ba8 EndAddr=0x28016427
+Took: 0.03s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/idc/11.30.0/bmw_idc_m7_4m_permissive_secure_boot_image.srec
+line number 74235 ignored (stype = 6 )
+Data Append from line 5109 and line 5110 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037e7f
+Data Append from line 15267 and line 15268 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x100875a7
+Segment Created: InitAddr=0x10090000 EndAddr=0x1024b3df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 27.51s to parse and generate srec messages!
+
+
+##############################
+2022-06-27 11:59:34
+##############################
+
+/tmp/_MEIurU0nC/toolbox_2M
+line number 79 ignored (stype = 5 )
+Data Append from line 59 and line 60 was not possible
+Segment Created: InitAddr=0x08010800 EndAddr=0x08013ad1
+Data Append from line 70 and line 71 was not possible
+Segment Created: InitAddr=0x08013ad4 EndAddr=0x0801443b
+Data Append from line 71 and line 72 was not possible
+Segment Created: InitAddr=0x08014440 EndAddr=0x08014443
+Segment Created: InitAddr=0x08014448 EndAddr=0x08014bd7
+Took: 0.02s to parse and generate srec messages!
+/home/gui_pd_access/inder/utility_script/recover_broken_targets/mgu22/11.30.0/bmw_mgu_m4_2m_permissive_secure_boot_image.srec
+line number 36513 ignored (stype = 5 )
+Data Append from line 5087 and line 5088 was not possible
+Segment Created: InitAddr=0x10010000 EndAddr=0x10037bbf
+Data Append from line 14793 and line 14794 was not possible
+Segment Created: InitAddr=0x10038000 EndAddr=0x10083d37
+Segment Created: InitAddr=0x10090000 EndAddr=0x101283df
+Gap of 4 bytes
+Filled a possible gap from message 18 and 19!
+Gap of 16 bytes
+Filled a possible gap from message 26 and 27!
+Gap of 4 bytes
+Filled a possible gap from message 27 and 28!
+Data Append from line 58 and line 59 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17000ec3 nBytesToAppend= 316
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17000fff
+Segment Created: InitAddr=0x17000800 EndAddr=0x17000fff
+Gap of 8 bytes
+Filled a possible gap from message 93 and 94!
+Data Append from line 154 and line 155 was not possible
+Incorrect alignment found (appendmode = after), endAddr=0x17006fcf nBytesToAppend= 48
+Filled data with FF for next bytes not defined in the srec! newEndAddr=0x17006fff
+Segment Created: InitAddr=0x17006400 EndAddr=0x17006fff
+Data Append from line 170 and line 171 was not possible
+Segment Created: InitAddr=0x17007600 EndAddr=0x170077ff
+Segment Created: InitAddr=0x17007c00 EndAddr=0x17007dff
+Segment Created: InitAddr=0x10000000 EndAddr=0x1000ffff
+Took: 4.53s to parse and generate srec messages!

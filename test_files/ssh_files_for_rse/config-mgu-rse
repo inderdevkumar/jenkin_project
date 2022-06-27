@@ -1,0 +1,5 @@
+Host mgu-rse
+  HostName 160.48.199.38
+  User root
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
